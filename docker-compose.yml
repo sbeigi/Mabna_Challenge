@@ -1,0 +1,34 @@
+version: '3.4'
+
+networks:
+  mabnaChallengeNetwork:
+
+services:
+  mabna.db:
+    container_name: app-db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 5050:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=159753*qaz
+    networks:
+      - mabnaChallengeNetwork
+  mabna.webapi:
+    container_name: webApi
+    image: worker/mabna_challenge
+    build:
+      context: .
+      dockerfile: Mabna\Dockerfile
+    ports:
+      - 5060:80
+      - 5061:443
+    depends_on:
+      - mabna.db
+    environment:
+      - DB_HOST = mabna.db
+      - DB_Name = MabnaDB
+      - DB_Password = 159753*qaz
+    networks:
+      - mabnaChallengeNetwork
+

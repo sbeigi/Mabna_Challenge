@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mabna.WebAPI", "Mabna\Mabna.WebAPI.csproj", "{2ED237E3-532A-407A-B61D-73F93126FBEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Core\Domain.csproj", "{0DF46D66-0CE4-4542-95DA-029CF30DA34B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8FB9FA1D-586E-4C1A-896F-73C9D8B65DF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{353DD593-3B04-40F7-B967-210C53EB05F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FC3C6459-EB4F-4177-B6E2-671B75186BD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mabna.MockGenerator", "FastMockDataGenerator\Mabna.MockGenerator.csproj", "{CBB7C6DF-90FB-4403-8AA1-B4BB8A7A8FAE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1849C306-DE24-4868-BC4F-DD60463568C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED237E3-532A-407A-B61D-73F93126FBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED237E3-532A-407A-B61D-73F93126FBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED237E3-532A-407A-B61D-73F93126FBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED237E3-532A-407A-B61D-73F93126FBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF46D66-0CE4-4542-95DA-029CF30DA34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF46D66-0CE4-4542-95DA-029CF30DA34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF46D66-0CE4-4542-95DA-029CF30DA34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF46D66-0CE4-4542-95DA-029CF30DA34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB9FA1D-586E-4C1A-896F-73C9D8B65DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB9FA1D-586E-4C1A-896F-73C9D8B65DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB9FA1D-586E-4C1A-896F-73C9D8B65DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB9FA1D-586E-4C1A-896F-73C9D8B65DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353DD593-3B04-40F7-B967-210C53EB05F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353DD593-3B04-40F7-B967-210C53EB05F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353DD593-3B04-40F7-B967-210C53EB05F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353DD593-3B04-40F7-B967-210C53EB05F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB7C6DF-90FB-4403-8AA1-B4BB8A7A8FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB7C6DF-90FB-4403-8AA1-B4BB8A7A8FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB7C6DF-90FB-4403-8AA1-B4BB8A7A8FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB7C6DF-90FB-4403-8AA1-B4BB8A7A8FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1849C306-DE24-4868-BC4F-DD60463568C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1849C306-DE24-4868-BC4F-DD60463568C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1849C306-DE24-4868-BC4F-DD60463568C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1849C306-DE24-4868-BC4F-DD60463568C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2ED237E3-532A-407A-B61D-73F93126FBEB} = {FC3C6459-EB4F-4177-B6E2-671B75186BD7}
+		{CBB7C6DF-90FB-4403-8AA1-B4BB8A7A8FAE} = {FC3C6459-EB4F-4177-B6E2-671B75186BD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C490B5D8-1588-44A0-B8A2-BECB54B5BA5E}
+	EndGlobalSection
+EndGlobal
