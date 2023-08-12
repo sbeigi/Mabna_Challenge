@@ -6,9 +6,9 @@ using Domain.CustomException;
 using Infrastructure.DataBaseWithNoRelation;
 using Infrastructure.DataBaseRelationBase;
 using Mabna.Middleware;
-using Mabna.WebAPI.Properties;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using Mabna.WebAPI.SecondQuestion.Properties;
 
 var builder = WebApplication.CreateBuilder(args);
 
